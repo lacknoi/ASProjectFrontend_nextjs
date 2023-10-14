@@ -1,0 +1,39 @@
+body{
+  background:white;
+  color: black;
+}
+nav{
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+nav a{
+  color: white;
+  margin-left: 12px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+nav .logo{
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  color: black;
+  border-top: 1px solid gray;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
